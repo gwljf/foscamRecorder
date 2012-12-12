@@ -29,6 +29,7 @@ RECORDING with command line options
 -----------------------------------
 The `main()` method in `Recorder.java` implement a command line interface for recording.
 
+```
 The command line recorder provides the following options:
     usage: java -jar recorder.jar
        -c <arg>   Cam url (eg. http://<ip>:<port>/<stream page>?<params>
@@ -41,4 +42,4 @@ The command line recorder provides the following options:
        -x <arg>   Max disk space (in megabytes [1024kb]) to use before
                   overwritting recordings. Oldest recordings will be overwritten
                   first. Defaults to -1 (unlimited)
-                  
+```                  
